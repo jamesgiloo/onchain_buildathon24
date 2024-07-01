@@ -1,0 +1,52 @@
+/* src/pages/Market.css */
+.market {
+    padding: 20px;
+  }
+  
+  .nft-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .nft-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .nft-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nft-info {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .nft-name {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: right;
+  }
+  
+  .nft-description {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .nft-info button {
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nft-info button:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,238 @@
+/* src/pages/MovieProfile.css */
+.movie-profile {
+  padding: 20px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.movie-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-image-container {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.movie-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.play-button img {
+  width: 60px;
+  height: 60px;
+}
+
+.movie-actions {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.get-ticket-button, .referral-link-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: none;
+}
+
+.get-ticket-button img, .referral-link-button img {
+  margin-right: 10px;
+}
+
+.copy-message {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.movie-details {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.movie-title {
+  margin: 10px 0;
+}
+
+.movie-price {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.movie-genre {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.movie-director {
+  margin: 5px 0;
+}
+
+.movie-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.movie-description {
+  flex: 1;
+  padding: 0;
+  text-align: left;
+  max-width: 100%;
+  margin-left: 35px; /* Add this line to move the section to the right */
+}
+
+.movie-description h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.movie-description span {
+  font-size: 14px;
+  color: #777;
+}
+
+.movie-description ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.movie-description ul li {
+  margin: 5px 0;
+}
+
+.movie-sidebar {
+  flex: 1;
+  text-align: left;
+  margin-right: 20px; /* Add this line to move the section to the right */
+}
+
+.watched-icons {
+  margin: 10px 0;
+}
+
+.creator-total-earned {
+  font-size: 18px;
+  margin: 0;
+}
+
+.total-earned-amount {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.g-points-leaderboard {
+  margin: 20px 0;
+}
+
+.g-points-leaderboard h3 {
+  margin: 0 0 10px;
+}
+
+.g-points-leaderboard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.g-points-leaderboard ul li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.g-points-leaderboard ul li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.history-messages {
+  top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.leaderboard-section {
+  margin-top: 20px;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaderboard-entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.grey-background {
+  background-color: #f0f0f0;
+}
+
+.leaderboard-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.leaderboard-name {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.leaderboard-points {
+  text-align: right;
+}
