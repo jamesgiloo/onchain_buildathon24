@@ -1,1 +1,1 @@
-# onchain_buildathon24
+# onchain buildathon24
