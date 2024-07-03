@@ -5,6 +5,8 @@ Our platform creates an ecosystem where filmmakers, curators, and audiences coll
 ## Introduction
 This project is a React-based web application that interacts with Web3 functionalities, leveraging various libraries and APIs.
 
+This is just the first version, and there are still many places that are not rigorous enough. It is expected to be more complete in the future.
+
 ## Prerequisites
 - Node.js (v14.x or higher)
 - npm (v6.x or higher) or yarn (v1.x or higher)
@@ -27,7 +29,21 @@ This project is a React-based web application that interacts with Web3 functiona
 
 ## Running the Application
 
-### React serve
+### Change your address in address map
+In order to cultivate loyalty, we have specially set up an address map so that users can see their own names and their own profile pictures, which increases users’ uniqueness and sense of identity here.
+
+in src/data/userAddressMap.js add:
+```sh
+const userList = [
+    {
+        name: "name",
+        address: "address",
+        Icon: "icon link"
+    },
+]
+```
+
+### React server
 To run the application with frontend, execute the following command:
 ```sh
 npm start
@@ -35,7 +51,7 @@ npm start
 yarn start
 ```
 
-### API serve
+### API server
 To run the application with frontend, execute the following command:
 ```sh
 cd backend
