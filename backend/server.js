@@ -53,14 +53,14 @@ app.post('/api/getPoints', async (req, res) => {
 });
 
 // 讀取 SSL 證書和私鑰
-const privateKey = fs.readFileSync('server.key', 'utf8');
-const certificate = fs.readFileSync('server.cert', 'utf8');
-const credentials = { key: privateKey, cert: certificate };
+// const privateKey = fs.readFileSync('server.key', 'utf8');
+// const certificate = fs.readFileSync('server.cert', 'utf8');
+// const credentials = { key: privateKey, cert: certificate };
 
 // 創建 HTTPS 服務器
-const httpsServer = https.createServer(credentials, app);
+// const httpsServer = https.createServer(credentials, app);
 
 // 启动 HTTPS 服务器，监听所有网络接口
-httpsServer.listen(port, '0.0.0.0', () => {
-  console.log(`HTTPS Server is running on https://0.0.0.0:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`HTTP Server is running on https://0.0.0.0:${port}`);
 });

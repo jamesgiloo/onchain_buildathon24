@@ -1,7 +1,7 @@
 // src/utils/stack.js
 import axios from 'axios';
 
-const apiBaseUrl = 'https://192.168.50.103:5001/api'; // 替换为你的后端服务器地址
+const apiBaseUrl = 'http://localhost:5001/api'; // 替换为你的后端服务器地址
 
 const addPoint = async (eventName, user, points) => {
   try {
