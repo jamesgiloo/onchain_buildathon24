@@ -7,6 +7,10 @@ This project is a React-based web application that interacts with Web3 functiona
 
 This is just the first version, and there are still many places that are not rigorous enough. It is expected to be more complete in the future.
 
+## Demo Page
+Profile page: https://react-with-cloudrun-hwarpj473a-uc.a.run.app/movie-profile/0xB23D78c22d0d28Decb681f7000B0AE90ED44bBc7
+Filter page: https://react-with-cloudrun-hwarpj473a-uc.a.run.app/airdrop
+
 ## Prerequisites
 - Node.js (v14.x or higher)
 - npm (v6.x or higher) or yarn (v1.x or higher)
